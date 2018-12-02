@@ -16,5 +16,9 @@ outline: 0;
 
 h4.tile-headline {
     color: white;
-    font-size: 15px;
+    font-size: 12px;
+}
+
+.counter-label {
+    color: white;
 }

@@ -12,31 +12,74 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 col-xs-6 col-sm-6 col-md-6 tile" style="background-color: #50910f" onclick="add({name: 'Apfel-Amaretto Punsch', price: 2.80})">
+                <!--APPLE-->
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 counter-label" style="background-color: #50910f">
+                    <br><br><h2 id="appleCounterLabel" >0</h2>
+                </div>
+                <div class="col-5 col-xs-5 col-sm-5 col-md-5 tile" style="background-color: #50910f" onclick="add({name: 'Apfel-Amaretto Punsch', price: 2.80})">
                     <br>
                     <img class="tile-icon" src="./images/apple.svg"/>
                     <br><br>
                     <h4 class="tile-headline">Apfel-Amaretto Punsch</h4>
                 </div>
-                <div class="col-6 col-xs-6 col-sm-6 col-md-6 tile" style="background-color: #52172b" onclick="add({name: 'Apfel-Amaretto Punsch', price: 2.80})">
+                
+                <!--BERRRY-->
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 counter-label" style="background-color: #52172b">
+                    <br><br><h2 id="berryCounterLabel">0</h2>
+                </div>
+                <div class="col-5 col-xs-5 col-sm-5 col-md-5 tile" style="background-color: #52172b" onclick="add({name: 'Beerenpunsch', price: 2.80})">
                     <br>
                     <img class="tile-icon" src="./images/berry.png"/>
                     <br><br>
                     <h4 class="tile-headline">Beerenpunsch</h4>
                 </div>
             </div>
+            
             <div class="row">
-                <div class="col-6 col-xs-6 col-sm-6 col-md-6 tile" style="background-color: #bf3520" onclick="add({name: 'Apfel-Amaretto Punsch', price: 2.80})">
+                <!--WINE-->
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 counter-label" style="background-color: #bf3520">
+                    <br><br><h2 id="wineCounterLabel">0</h2>
+                </div>
+                <div class="col-5 col-xs-5 col-sm-5 col-md-5 tile" style="background-color: #bf3520" onclick="add({name: 'Glühwein', price: 2.80})">
                     <br>
                     <img class="tile-icon" src="./images/wine.svg"/>
                     <br><br>
                     <h4 class="tile-headline">Glühwein</h4>
                 </div>
-                <div class="col-6 col-xs-6 col-sm-6 col-md-6 tile" style="background-color: #09b5a9" onclick="add({name: 'Kinderpunsch', price: 2})">
+                
+                <!--KIDS-->
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 counter-label" style="background-color: #09b5a9">
+                    <br><br><h2 id="kidsCounterLabel">0</h2>
+                </div>
+                <div class="col-5 col-xs-5 col-sm-5 col-md-5 tile" style="background-color: #09b5a9" onclick="add({name: 'Kinderpunsch', price: 2})">
                     <br>
                     <img src="./images/child.png" style="height: 50px"/>
                     <br><br>
                     <h4 class="tile-headline">Kinderpunsch</h4>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!--BEER-->
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 counter-label" style="background-color: #874e00">
+                    <br><br><h2 id="beerCounterLabel">0</h2>
+                </div>
+                <div class="col-5 col-xs-5 col-sm-5 col-md-5 tile" style="background-color: #874e00" onclick="add({name: 'Bier', price: 2.50})">
+                    <br>
+                    <img class="tile-icon" src="./images/beer.svg"/>
+                    <br><br>
+                    <h4 class="tile-headline">Bier</h4>
+                </div>
+                
+                <!--CUP-->
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 counter-label" style="background-color: #7c7c7c">
+                    <br><br><h2 id="cupCounterLabel">0</h2>
+                </div>
+                <div class="col-5 col-xs-5 col-sm-5 col-md-5 tile" style="background-color: #7c7c7c" onclick="add({name: 'Häferl', price: 2.50})">
+                    <br>
+                    <img src="./images/mug.png" style="height: 50px"/>
+                    <br><br>
+                    <h4 class="tile-headline">Häferl</h4>
                 </div>
             </div>
         </div>
