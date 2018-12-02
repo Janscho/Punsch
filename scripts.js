@@ -7,7 +7,7 @@ function add(beverage) {
         return result + item.price;
     }, 0);
     
-    document.getElementById('result').innerHTML = sum
+    document.getElementById('result').innerHTML = sum.toFixed(2) + '€'
 }
 
 document.addEventListener('touchmove', function(event) {
