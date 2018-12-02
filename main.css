@@ -1,0 +1,11 @@
+.tile {
+    text-align: center;
+}
+
+.tile-icon {
+    width: 100px;
+}
+
+h2.tile-headline {
+    color: white;
+}
