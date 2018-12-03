@@ -16,9 +16,21 @@ outline: 0;
 
 h4.tile-headline {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .counter-label {
     color: white;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    font-size: 40px;
+    background-color: darkred;
+    color: white;
+    display: none;
 }
