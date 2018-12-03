@@ -39,9 +39,34 @@ function isRealValue(obj) {
 
 function resetCounters() {
     for (var i = 0; i < availableBeverages.length; i++) {
-        var item = availableBeverages[i]
+        var item = availableBeverages[i];
         (document.getElementById(item.labelId)).innerHTML = 0
     }
+}
+
+function resetPressed() {
+    selectedBeverages = [];
+    resetCounters();
+    updateSum();
+}
+
+function fillCups() {
+    selectedBeverages = selectedBeverages.filter((value, index, array) => {
+        return value.name != availableBeverages[5].name;
+    });
+    
+    var length = selectedBeverages.length;
+    (document.getElementById(availableBeverages[5].labelId)).innerHTML = length;
+    
+    for (var i = 0; i < length; i++) {
+        selectedBeverages.push({name: 'Häferl', price: 2.50, labelId: 'cupCounterLabel'});
+    }
+    
+    updateSum();
+}
+
+function isCup(name) {
+    return name != availableBeverages[5].name
 }
 
 // Disable double tap on mobile

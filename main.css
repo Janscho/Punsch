@@ -14,6 +14,10 @@ outline: 0;
     pointer-events: none;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 h4.tile-headline {
     color: white;
     font-size: 14px;
@@ -21,6 +25,12 @@ h4.tile-headline {
 
 .counter-label {
     color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #footer {
@@ -32,5 +42,22 @@ h4.tile-headline {
     font-size: 40px;
     background-color: darkred;
     color: white;
-    display: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#fillCupsField {
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
